@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = import.meta.env.VITE_APP_BASE_URL || "https://api.smartdhobi.in/api";
+const API_BASE_URL = import.meta.env.VITE_APP_BASE_URL || "http://localhost:8000/api";
 
 const getStoredUser = () => {
   const storedUser = localStorage.getItem("user");

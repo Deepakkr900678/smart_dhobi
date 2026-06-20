@@ -8,7 +8,7 @@ import EditVendorModal from "./vendorComponent/EditVendorModal";
 import ViewVendorModal from "./vendorComponent/ViewVendorModal";
 
 const API_BASE_URL =
-  import.meta.env.VITE_APP_BASE_URL || "https://api.smartdhobi.in/api";
+  import.meta.env.VITE_APP_BASE_URL || "http://localhost:8000/api";
 
 // Always reads the latest token from localStorage
 const getAuthConfig = () => ({

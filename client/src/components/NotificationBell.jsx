@@ -7,7 +7,7 @@
 //   updateNotificationClick,
 // } from "../auth/ApiConnect";
 
-// // const socket = io("https://api.smartdhobi.in");
+// // const socket = io("http://localhost:8000");
 // const socket = io(import.meta.env.VITE_APP_BASE_URL.replace("/api", ""));
 
 // const NotificationBell = ({ userId }) => {
